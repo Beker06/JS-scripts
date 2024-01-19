@@ -1,7 +1,7 @@
 let array = [1, 'a', 2, 'b', 3, 'c'];
 let numbers = [1, 2, 3, 4, 5];
 let letters = ['a', 'b', 'c', 'd', 'e'];
-let empty = ['', '', '']
+let empty = ['', '', ''];
 
 const filter = array.filter(item => typeof(item) == 'number');
 console.log(filter); // [1, 2, 3]
@@ -29,6 +29,10 @@ console.log(every); // true
 
 const some = letters.some(item => typeof(item) == 'number');
 console.log(some) // false
+
+const sorted = numbers.sort((a, b) => b-a);
+console.log(sorted); // [5, 4, 3, 2, 1]
+
 
 
 
