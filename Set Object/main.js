@@ -1,3 +1,8 @@
+// Un set es una estructura de datos parecida 
+// a una Lista o Un arreglo que representa una 
+// coleccion de datos unicos con la caracteristica 
+// de que no permite duplicados.
+
 let mySet = new Set();
 
 // Agregar elementos al set
