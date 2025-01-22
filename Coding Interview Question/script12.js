@@ -18,7 +18,7 @@ function firstNotRepeated(arr){
     return null;
 }
 
-console.log(firstNotRepeated(array)); // 4
+console.log(firstNotRepeated(array)); // Output: 4
 
 //AI Improved
 // function firstNotRepeated(arr){
